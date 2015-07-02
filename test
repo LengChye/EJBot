@@ -5,9 +5,9 @@ from time import sleep
 # This will mark the last update we've checked
 last_update = 0
 # Here, insert the token BotFather gave you for your bot.
-token = '71970901:AAFBnBHTxrw86mgNAnxnu-2a0mNMppgdLEg'
+token = '71970901'
 # This is the url for communicating with your bot
-url = 'https://api.telegram.org/bot71970901:AAFBnBHTxrw86mgNAnxnu-2a0mNMppgdLEg/' % token
+url = 'https://api.telegram.org/bot71970901/' % token
 
 # We want to keep checking for updates. So this must be a never ending loop
 while True:
